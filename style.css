@@ -29,6 +29,14 @@ body {
     text-align: center;
 }
 
+.card-form {
+    background-color: white;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 40px 0;
+}
+
+
 #header {
     background-color: #3330E4;
 }
