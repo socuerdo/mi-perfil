@@ -8,6 +8,18 @@ body {
     margin: 0 auto;
 }
 
+@media (max-width: 768px) {
+    .container {
+        width: 500px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 300px;
+    }
+}
+
 .card-white {
     background-color: white;
     padding: 40px;
@@ -24,6 +36,13 @@ body {
 #footer {
     background-color: #3330E4;
 }
+
+#footer p {
+    color: white;
+    font-size: 14px;
+    font-weight: 200;
+}
+
 
 .list-inline {
     list-style: none;
@@ -42,6 +61,22 @@ body {
 
 .list-inline i:hover {
     color: #3330E4;
+}
+
+.btn-orange {
+    background-color: #ff0000;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.btn-orange:hover {
+    background-color: #3330E4;
+    color: white;
+}
+
+#introduction p {
+    margin-bottom: 40px;
 }
 
 h1 {
