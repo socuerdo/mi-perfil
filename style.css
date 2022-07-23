@@ -17,6 +17,14 @@ body {
     text-align: center;
 }
 
+#header {
+    background-color: #3330E4;
+}
+
+#footer {
+    background-color: #3330E4;
+}
+
 .list-inline {
     list-style: none;
     padding-left: 0px;
